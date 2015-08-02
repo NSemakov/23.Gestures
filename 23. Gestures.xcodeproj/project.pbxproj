@@ -14,6 +14,7 @@
 		84A341751B6E5BFD00883C44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A341741B6E5BFD00883C44 /* Images.xcassets */; };
 		84A341781B6E5BFD00883C44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A341761B6E5BFD00883C44 /* LaunchScreen.xib */; };
 		84A341841B6E5BFD00883C44 /* _3__GesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A341831B6E5BFD00883C44 /* _3__GesturesTests.m */; };
+		84A3418F1B6E5CCE00883C44 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A3418E1B6E5CCE00883C44 /* ball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		84A3417D1B6E5BFD00883C44 /* 23. GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "23. GesturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A341821B6E5BFD00883C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A341831B6E5BFD00883C44 /* _3__GesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3__GesturesTests.m; sourceTree = "<group>"; };
+		84A3418E1B6E5CCE00883C44 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				84A341661B6E5BFC00883C44 /* 23. Gestures */,
 				84A341801B6E5BFD00883C44 /* 23. GesturesTests */,
 				84A341651B6E5BFC00883C44 /* Products */,
+				84A3418D1B6E5CCE00883C44 /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +120,15 @@
 				84A341821B6E5BFD00883C44 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A3418D1B6E5CCE00883C44 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84A3418E1B6E5CCE00883C44 /* ball.jpg */,
+			);
+			name = Images;
+			path = "23. Gestures/Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A3418F1B6E5CCE00883C44 /* ball.jpg in Resources */,
 				84A341731B6E5BFD00883C44 /* Main.storyboard in Resources */,
 				84A341781B6E5BFD00883C44 /* LaunchScreen.xib in Resources */,
 				84A341751B6E5BFD00883C44 /* Images.xcassets in Resources */,
